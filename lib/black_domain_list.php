@@ -274,7 +274,6 @@ return array(
     ),
     'amap.com' => array('logs.amap.com'),
     'tt114.net' => array('tt114.net'), //例如http://www.tt114.net/html/tlink.html
-    'ip138.com' => array('api.ip138.com'),
     'taobao.com' => array(
       'ip.taobao.com',
       'fourier.taobao.com',
@@ -648,6 +647,34 @@ return array(
     ),
     'click.com.cn' => array(
         'click.com.cn',
+    ),
+    'yl89.cn' => array(
+        'yl89.cn',
+        'cdnqq.yl89.cn',
+    ),
+    'sgbbc.cn' => array( // #187
+        'sgbbc.cn',
+        '7202019monday.sgbbc.cn',
+    ),
+    'shgansheng.cn' => array( // #187
+        'shgansheng.cn',
+        'aa.shgansheng.cn', // https://aa.shgansheng.cn/safe/pot/iui/index.html?6101595245409&pkg=31
+    ),
+    'guiheng.wang' => array(
+        'guiheng.wang',
+        's.guiheng.wang',
+    ),
+    'whbmy.com' => array(
+        'whbmy.com',
+        'a-llq.whbmy.com',
+    ),
+    'bd-gl.com' => array(
+        'bd-gl.com',
+        'api.bd-gl.com', // /www/nodejs/暗刷api/node_modules/
+    ),
+    'zbwowo.com' => array(
+        'zbwowo.com',
+        'cdn-7n-pt.zbwowo.com', // https://cdn-7n-pt.zbwowo.com/pjs/as/apias0.js?c=12
     ),
 
 
