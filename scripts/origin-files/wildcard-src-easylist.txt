@@ -2,6 +2,7 @@
 ||*.wap.xsbiquge.com^
 ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
 ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com^
+||*p2p*douyucdn.cn^
 ||*serror*.wo.com.cn^
 ||201*.myhard.com^
 ||8*.tianya.cn^
@@ -21,7 +22,6 @@
 ||assoc-amazon.*^e/ir?t=$image
 ||at*.doubanio.com^
 ||ax.*.ifeng.com^
-||banners*.spacash.com^$third-party
 ||bdcpro*.techweb.com.cn^
 ||bdlm*.hc360.com^
 ||bing.com*^/c.gif?$image
@@ -64,9 +64,9 @@
 ||metric*.rediff.com^
 ||metro-trending-*.amazonaws.com^$third-party
 ||minero-proxy-*.sh^$third-party
-||mobileoffers-*-download.com^$third-party
 ||ow*.biqugego.com^
 ||ox-d.*^auid=
+||ping.*.sogou.com^
 ||quickflix*.gridserver.com^$third-party
 ||rdi.*.criteo.com^$domain=spiegel.de
 ||rdi.*.criteo.com^$third-party
@@ -82,16 +82,13 @@
 ||stats-*.p2pnow.ru^
 ||stats2.*.fdnames.com^
 ||targeting.*.arcpublishing.com^
-||tracker*.bingohall.ag^$popup,third-party
-||tracker*.richcasino.com^$popup,third-party
+||tracker*.qcloud.com^
 ||tracking*.euroads.fi^$third-party
 ||tracking.*.miui.com^
 ||trk*.vidible.tv^
 ||uc*.atobo.com^
 ||um*.com^$third-party
 ||union*.365inews.com^
-||vali*.cibntv.net^*.mp4?$media,domain=v.youku.com
-||vali*.cibntv.net^*.mp4?$media,rewrite=abp-resource:blank-mp3,domain=player.youku.com
 ||vix.*.criteo.net^$domain=spiegel.de
 ||vix.*.criteo.net^$third-party
 ||vtnlog-*.elb.amazonaws.com^

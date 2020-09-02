@@ -3,7 +3,6 @@
 @@||100percentfedup.com^$generichide
 @@||17173im.allyes.com^
 @@||199it.com^$generichide
-@@||4archive.org^$generichide
 @@||4horlover.com^$generichide
 @@||51job.com^$generichide
 @@||520call.me^$generichide
@@ -55,15 +54,12 @@
 @@||afreesms.com^$generichide
 @@||ahctv.com^$generichide
 @@||ak77now.pixnet.net^$generichide
-@@||allenwestrepublic.com^$generichide
 @@||allestoringen.be^$generichide
 @@||allestoringen.nl^$generichide
 @@||allestörungen.at^$generichide
 @@||allestörungen.ch^$generichide
 @@||allestörungen.de^$generichide
 @@||allmusic.com^$generichide
-@@||allmyvideos.net^$generichide
-@@||allmyvideos.net^$script,~third-party
 @@||allthingsvegas.com^$generichide
 @@||alphahistory.com^$generichide
 @@||anilinkz.io^$generichide
@@ -203,7 +199,6 @@
 @@||embedupload.com^$generichide
 @@||enstarz.com^$generichide
 @@||eolinker.com^$generichide
-@@||eteknix.com^$generichide
 @@||eucookiedirective.com^$~third-party
 @@||euroman.dk^$generichide
 @@||external.mranime.tv^$generichide,script
@@ -218,7 +213,7 @@
 @@||fitshr.net^$script,stylesheet
 @@||flattr.com^$generichide
 @@||flvto.biz^$generichide
-@@||fontawesome.io^$generichide,~third-party
+@@||fontawesome.com^$generichide,~third-party
 @@||foreverymom.com^$generichide
 @@||freedomoutpost.com^$generichide
 @@||freeomovie.com^$generichide
@@ -264,7 +259,7 @@
 @@||hypable.com^$generichide
 @@||ibf.tw^$generichide
 @@||ifttt.com^$generichide
-@@||images.sportsworldnews.com^$image,third-party
+@@||image.coolapk.com^
 @@||imaster.space^$websocket
 @@||img.ads.tvb.com^
 @@||img.highloadtest.com^$image
@@ -351,6 +346,7 @@
 @@||niotv.com^$generichide
 @@||nobugin.com^$generichide
 @@||nodkey.xyz^$genericblock,generichide
+@@||nodkey.xyz^$generichide
 @@||notonlyporn.net^$script,~third-party
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
@@ -445,6 +441,8 @@
 @@||suicidegirlsfree.com^$generichide
 @@||supercheats.com^$generichide
 @@||survivalnation.com^$generichide
+@@||swiso.org^$generichide
+@@||switching.software^$generichide
 @@||swjoy.com^
 @@||szhr.com.cn^$generichide
 @@||szhr.com^$generichide
@@ -483,7 +481,6 @@
 @@||tweaktown.com^$generichide
 @@||twofactorauth.org^$generichide
 @@||udp2p.com^$generichide
-@@||ue.flipboard.com^$script,~third-party
 @@||ui.bamstatic.com^$script,third-party
 @@||universityherald.com^$generichide
 @@||upload.tube8.com^$script,xmlhttprequest
@@ -533,4 +530,5 @@
 @@||youthhealthmag.com^$generichide
 @@||yygsz.com^$generichide
 @@||zbj.com^
+@@||zeplin.io^$generichide
 @@||zippyshare.com^$generichide

@@ -34,7 +34,7 @@ $ARR_MERGED_WILD_LIST = array(
     'dsp*.youdao.com' => null,
     'pussl*.com' => null,
     'putrr*.com' => null,
-    'ad.*.360.cn' => null,
+    'ad*.360.cn' => null,
     't*.a.market.xiaomi.com' => null,
     'ad*.bigmir.net' => null,
     'log*.molitv.cn' => null,
@@ -42,7 +42,6 @@ $ARR_MERGED_WILD_LIST = array(
     'cloudservice*.kingsoft-office-service.com' => null,
     'gg*.51cto.com' => null,
     'log.*.hunantv.com' => null,
-    '*.log.hunantv.com' => null,
     'iflyad.*.openstorage.cn' => null,
     '*customstat*.51togic.com' => null,
     'appcloud*.zhihu.com' => null,
@@ -66,11 +65,23 @@ $ARR_MERGED_WILD_LIST = array(
     '24log.*' => null,
     '24smi.*' => null,
     'ad-*.wikawika.xyz' => null,
-    '*.ablen*.tk' => null,
-    '*.darking*.tk' => null,
-    '*.doubleclick*.xyz' => null,
-    '*.thepiratebay.*' => null,
-    '*.freecontent.*' => null,
+    'ablen*.tk' => null,
+    'darking*.tk' => null,
+    'doubleclick*.xyz' => null,
+    'thepiratebay.*' => null,
+    'adserver.*' => null,
+//    'advert*.*' => null,
+    'clientlog*.music.163.com' => null,
+    'brucelead*.com' => null,
+    'gostats.*' => null,
+    'gralfusnzpo*.top' => null,
+    'oiwjcsh*.top' => null,
+    '*-analytics*.huami.com' => null,
+    'count*.pconline.com.cn' => null,
+    'qchannel*.cn' => null,
+    'sda*.xyz' => null,
+    'ad-*.com' => null,
+    'ad-*.net' => null,
 );
 
 $ARR_REGEX_LIST = array(
@@ -106,7 +117,9 @@ $ARR_REGEX_LIST = array(
     '/^(\S+\.)?ali2[a-z]\.xyz$/' => null, //连号
     '/^(\S+\.)?777\-?partners?\.(net|com)$/' => null, //组合
     '/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/' => null, //组合
-    
+    '/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/' => null, //组合
+    '/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/' => null, //批量组合
+
     // '/^(\S+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
 );
 
@@ -131,6 +144,9 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||stats.gov.cn^' => 1, // 国家统计局 #144
     '@@||tj.gov.cn^' => 1,
     '@@||sax.sina.com.cn^' => 1, // #155
+    '@@||api.ad-gone.com^' => 1, // #207
+    '@@||news-app.abumedia.yql.yahoo.com^' => 1, // #206
+    '@@||meizu.coapi.moji.com^' => 1, // #217
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
@@ -234,7 +250,7 @@ while(!feof($src_fp)){
     }
 
     foreach($arr_wild_src as $core_str => $wild_row){
-        $match_rule = str_replace('*', '.*', $core_str);
+        $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
         if(!array_key_exists($core_str, $wrote_wild)){
             $written_size += fwrite($new_fp, "||${core_str}^\n");
             $line_count++;
@@ -281,8 +297,8 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
         if($core_str{0} === '/'){
             $match_rule = $core_str;
         }else{
-            $match_rule = str_replace('*', '.*', $core_str);
-            $match_rule = "/${match_rule}/";
+            $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);
+            $match_rule = "/^${match_rule}/";
         }
         if(preg_match($match_rule, $matches[1])){
             $domain = addressMaker::extract_main_domain($matches[1]);

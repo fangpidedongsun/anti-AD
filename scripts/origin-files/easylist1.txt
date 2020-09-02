@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202007162224
+! Version: 202008281017
 ! Title: CJX's Annoyance List
-! Last modified: 2020/07/16 22:24 +0800
+! Last modified: 2020/08/28 10:17 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -402,7 +402,33 @@
 ||chinaacc.com/upload/*_mjy_
 ||music.163.com^$domain=mvcat.com
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=77
+||iabao.com/imgs/2020/06/1357d5f161d1678a.jpg
+||yizhibo.com/special/h5corner.html
+||feedou.com/nzq/style/pc/js/zt_bottom.js
+||66zhuang.com/public_2017/js/count-gou.js
+||xuexila.com^*-xxl.js
+||sogoucdn.com/translate/ssr/static/img/banner-
+||cls.cn/v2/web/ad?
 !------------------------Specific element hiding rules------------------------!
+qiaobutang.com##.fixed-footer-wrap
+fanyi.baidu.com###app-read
+pan.baidu.com##.phone-banner
+epubee.com##.reader-to-vip
+news.163.com##.mod_netes_origina
+news.163.com##.mod_pageh5
+egame.qq.com##.lurk-dialog
+egame.qq.com##.pop-widget
+16rd.com###diy_bbs_list_right IMG
+16rd.com###quick_pub_form
+16rd.com##.c1c2_b1b2_adbx
+16rd.com###diy_ad_article_right IMG
+ifeng.com##.slideImg-lGG7Uta-
+yizhibo.com###J_reg_guide
+poedb.tw#?#div[id]:-abp-contains(ad blocker)
+qq.com##.notice[class^="jsx-"]
+qq.com##.elevator[class^="jsx-"]
+qq.com##.wrap[class^="jsx-"]
+php.cn##.layui-show > UL > .top-img
 offcn.com##.jlstc
 chinakaoyan.com##.side-wx
 neets.cc#?#div[class]:-abp-has(> div > .home_p)
@@ -1124,7 +1150,6 @@ tianya.cn##.qhb-Box
 focus.cn##.qhb-fixed
 wasu.cn##.qp
 kuwo.cn##.qr_wrapper
-qihoo.com##.qrcode
 163.com##.quickmark
 to8to.com##.quoted-outside
 m.youku.com##.recommend
@@ -1378,7 +1403,6 @@ m.babytree.com##script + a[class]
 ||gridsumdissector.cn/gs.gif?
 ||guahao.cn/blank.gif?
 ||hao123img.com/res/js/track.js
-||haostat.qihoo.com^
 ||hc360.com/js/module/common/logrecordservice.
 ||hd.sohu.com.cn^$object-subrequest
 ||hdslb.com/js/bfd.js
@@ -1520,6 +1544,7 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! EasyPrivacy
+@@/transparent.gif?ray=$image,~third-party
 /__utm.gif
 /gen_204?$image,script
 /log.gif?

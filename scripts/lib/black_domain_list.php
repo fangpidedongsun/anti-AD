@@ -172,9 +172,6 @@ return array(
     'kuyun.com' => array(
         'kuyun.com'
     ),
-    'amazon.com' => array(
-        'device-messaging-na.amazon.com',
-    ),
     'shareinstall.com.cn' => array(
         'shareinstall.com.cn' //移动广告商
     ),
@@ -676,6 +673,133 @@ return array(
         'zbwowo.com',
         'cdn-7n-pt.zbwowo.com', // https://cdn-7n-pt.zbwowo.com/pjs/as/apias0.js?c=12
     ),
+    'ijinshan.com' => array(
+        'mobad.ijinshan.com',
+        'union.ijinshan.com',
+        'tj.ijinshan.com',
+    ),
+    'ifeng.com' => array(
+        'iaclick.ifeng.com',
+        'avideo.ifengcdn.com',
+        'cx.ifengbi.com',
+    ),
+    'shllhz.net' => array( // #204
+        'shllhz.net',
+        'p.shllhz.net',
+    ),
+    'pubghio.fun' => array(
+        'pubghio.fun', // #212, https://pubghio.fun/login?agency=200
+    ),
+    'xladapi.izuiyou.com' => array( // 手机迅雷广告
+        'xladapi.izuiyou.com',
+        'xlstat.izuiyou.com',
+    ),
+    'idmchina.net' => array( // 假冒官网
+        'www.idmchina.net',
+        'idmchina.net',
+    ),
+    
+    'cntingyun.com' => array( // #234
+        'www.cntingyun.com',
+        'cntingyun.com',
+    ),
+    'networkbench.com' => array( // #234
+        'networkbench.com',
+        'www.networkbench.com',
+    ),
+    'tingyun.com' => array( // #234
+        'tingyun.com',
+        'www.tingyun.com',
+    ),
+    'appsmall.mobi' => array( // #234
+        'appsmall.mobi',
+        'www.appsmall.mobi',
+    ),
+    'babybubble.cn' => array( // #234
+        'www.babybubble.cn',
+        'babybubble.cn',
+    ),
+    'babymoment.net' => array( // #234
+        'www.babymoment.net',
+        'babymoment.net',
+    ),
+    'coolppa.cn' => array( // #234
+        'coolppa.cn',
+        'www.coolppa.cn',
+    ),
+    'effirst.cn' => array( // #234
+        'www.effirst.cn',
+        'effirst.cn',
+    ),
+    'effirst.com' => array( // #234
+        'www.effirst.com',
+        'effirst.com',
+    ),
+    'hdyzx.cn' => array( // #234
+        'hdyzx.cn',
+        'www.hdyzx.cn',
+    ),
+    'minippa.cn' => array( // #234
+        'www.minippa.cn',
+        'minippa.cn',
+    ),
+    'open-uc.cn' => array( // #234
+        'open-uc.cn',
+        'www.open-uc.cn',
+    ),
+    
+    'tinya1.cn' => array( // #234
+        'tinya1.cn',
+        'www.tinya1.cn',
+    ),
+    'tinyap2.cn' => array( // #234
+        'tinyap2.cn',
+        'www.tinyap2.cn',
+    ),
+    'tinypap.cn' => array( // #234
+        'tinypap.cn',
+        'www.tinypap.cn',
+    ),
+    'tinyppa.cn' => array( // #234
+        'tinyppa.cn',
+        'www.tinyppa.cn',
+    ),
+    'u-mob.cn' => array( // #234
+        'u-mob.cn',
+        'www.u-mob.cn',
+    ),
+    'ubibibi.com' => array( // #234
+        'ubibibi.com',
+        'www.ubibibi.com',
+    ),
+    'uc123.com' => array( // #234
+        'uc123.com',
+        'www.uc123.com',
+    ),
+    'ucdesk.cn' => array( // #234
+        'ucdesk.cn',
+        'www.ucdesk.cn',
+    ),
+    'ucfly.com' => array( // #234
+        'ucfly.com',
+        'www.ucfly.com',
+    ),
+    'ucweb.cn' => array( // #234
+        'ucweb.cn',
+        'www.ucweb.cn',
+    ),
+    'uflowx.com' => array( // #234
+        'uflowx.com',
+        'www.uflowx.com',
+    ),
+    'xiaomengquan.cn' => array( // #234
+        'xiaomengquan.cn',
+        'www.xiaomengquan.cn',
+    ),
+    'xmq123.cn' => array( // #234
+        'xmq123.cn',
+        'www.xmq123.cn',
+    ),
 
 
 
@@ -696,6 +820,107 @@ return array(
 
 
 
+    // 一批广告公司和大数据公司域名 #223
+    'appadhoc.com' => array('appadhoc.com', 'www.appadhoc.com'),
+    'appadhoc.net' => array('appadhoc.net', 'www.appadhoc.net'),
+    'dratio.com' => array('dratio.com', 'www.dratio.com'),
+    'um0.cn' => array('um0.cn', 'www.um0.cn'),
+    'um1.cn' => array('um1.cn', 'www.um1.cn'),
+    'umsns.com' => array('umsns.com', 'www.umsns.com'),
+    'umtrack.com' => array('umtrack.com', 'www.umtrack.com'),
+    'umtrack0.com' => array('umtrack0.com', 'www.umtrack0.com'),
+    'umtrack1.com' => array('umtrack1.com', 'www.umtrack1.com'),
+    'umtrack2.com' => array('umtrack2.com', 'www.umtrack2.com'),
+    'umv0.com' => array('umv0.com', 'www.umv0.com'),
+    'umv5.com' => array('umv5.com', 'www.umv5.com'),
+    'cnadid.cn' => array('cnadid.cn', 'www.cnadid.cn'),
+    'cnadid.com' => array('cnadid.com', 'www.cnadid.com'),
+    'digitalunion.cn' => array('digitalunion.cn', 'www.digitalunion.cn'),
+    'kxid.cn' => array('kxid.cn', 'www.kxid.cn'),
+    'mobid.cn' => array('mobid.cn', 'www.mobid.cn'),
+    'shuzhundsj.cn' => array('shuzhundsj.cn', 'www.shuzhundsj.cn'),
+    'shuzilm.cn' => array('shuzilm.cn', 'www.shuzilm.cn'),
+    'shuzilm.com' => array('shuzilm.com', 'www.shuzilm.com'),
+    '3edc.cn' => array('3edc.cn', 'www.3edc.cn'),
+    'appcpa.net' => array('appcpa.net', 'www.appcpa.net'),
+    'cpatrk.net' => array('cpatrk.net', 'www.cpatrk.net'),
+    'doudouknot.com' => array('doudouknot.com', 'www.doudouknot.com'),
+    'edutalkingdata.cn' => array('edutalkingdata.cn', 'www.edutalkingdata.cn'),
+    'edutalkingdata.com' => array('edutalkingdata.com', 'www.edutalkingdata.com'),
+    'jielou.net' => array('jielou.net', 'www.jielou.net'),
+    'lnk0.com' => array('lnk0.com', 'www.lnk0.com'),
+    'lnk8.cn' => array('lnk8.cn', 'www.lnk8.cn'),
+    'mpush.cn' => array('mpush.cn', 'www.mpush.cn'),
+    'myzhongguojie.cn' => array('myzhongguojie.cn', 'www.myzhongguojie.cn'),
+    'talkingdata.cn' => array('talkingdata.cn', 'www.talkingdata.cn'),
+    'talkingdata.com' => array('talkingdata.com', 'www.talkingdata.com'),
+    'talkingdata.com.cn' => array('talkingdata.com.cn', 'www.talkingdata.com.cn'),
+    'talkinggame.com' => array('talkinggame.com', 'www.talkinggame.com'),
+    'talkingnews.net' => array('talkingnews.net', 'www.talkingnews.net'),
+    'tddmp.com' => array('tddmp.com', 'www.tddmp.com'),
+    'tendcloud.cn' => array('tendcloud.cn', 'www.tendcloud.cn'),
+    'tendcloud.com' => array('tendcloud.com', 'www.tendcloud.com'),
+    'tenddata.cn' => array('tenddata.cn', 'www.tenddata.cn'),
+    'tenddata.com' => array('tenddata.com', 'www.tenddata.com'),
+    'tenddata.com.cn' => array('tenddata.com.cn', 'www.tenddata.com.cn'),
+    'tenddata.net' => array('tenddata.net', 'www.tenddata.net'),
+    'tengyuncloud.cn' => array('tengyuncloud.cn', 'www.tengyuncloud.cn'),
+    'udrig.com' => array('udrig.com', 'www.udrig.com'),
+    'xdrig.com' => array('xdrig.com', 'www.xdrig.com'),
+    'xuefenxi.com' => array('xuefenxi.com', 'www.xuefenxi.com'),
+    'datayi.cn' => array('datayi.cn', 'www.datayi.cn'),
+    'gio.ren' => array('gio.ren', 'www.gio.ren'),
+    'giocdn.com' => array('giocdn.com', 'www.giocdn.com'),
+    'growin.cn' => array('growin.cn', 'www.growin.cn'),
+    'growingio.cn' => array('growingio.cn', 'www.growingio.cn'),
+    'growingio.com' => array('growingio.com', 'www.growingio.com'),
+    'gz51la.com' => array('gz51la.com', 'www.gz51la.com'),
+    'appgo.cn' => array('appgo.cn', 'www.appgo.cn'),
+    'sharesdk.cn' => array('sharesdk.cn', 'www.sharesdk.cn'),
+    '42r.cn' => array('42r.cn', 'www.42r.cn'),
+    '47r.cn' => array('47r.cn', 'www.47r.cn'),
+    '5566ua.com' => array('5566ua.com', 'www.5566ua.com'),
+    'a0x.cn' => array('a0x.cn', 'www.a0x.cn'),
+    'aurorapush.cn' => array('aurorapush.cn', 'www.aurorapush.cn'),
+    'aurorapush.com' => array('aurorapush.com', 'www.aurorapush.com'),
+    'ausaas.cn' => array('ausaas.cn', 'www.ausaas.cn'),
+    'e0n.cn' => array('e0n.cn', 'www.e0n.cn'),
+    'japps.cn' => array('japps.cn', 'www.japps.cn'),
+    'jglinks.cn' => array('jglinks.cn', 'www.jglinks.cn'),
+    'jgmlink.cn' => array('jgmlink.cn', 'www.jgmlink.cn'),
+    'jgshare.cn' => array('jgshare.cn', 'www.jgshare.cn'),
+    'jmlinks.cn' => array('jmlinks.cn', 'www.jmlinks.cn'),
+    'jmlk.co' => array('jmlk.co', 'www.jmlk.co'),
+    'jpushoa.com' => array('jpushoa.com', 'www.jpushoa.com'),
+    'jsurvey.cn' => array('jsurvey.cn', 'www.jsurvey.cn'),
+    'jvoice.cn' => array('jvoice.cn', 'www.jvoice.cn'),
+    'kc9.cn' => array('kc9.cn', 'www.kc9.cn'),
+    'linkjg.cn' => array('linkjg.cn', 'www.linkjg.cn'),
+    'linksjg.cn' => array('linksjg.cn', 'www.linksjg.cn'),
+    'mlinkj.cn' => array('mlinkj.cn', 'www.mlinkj.cn'),
+    'mlinkjg.cn' => array('mlinkjg.cn', 'www.mlinkjg.cn'),
+    'n0q.cn' => array('n0q.cn', 'www.n0q.cn'),
+    'pushcfg.com' => array('pushcfg.com', 'www.pushcfg.com'),
+    's0n.cn' => array('s0n.cn', 'www.s0n.cn'),
+    'thering.cn' => array('thering.cn', 'www.thering.cn'),
+    'xuanhk.com' => array('xuanhk.com', 'www.xuanhk.com'),
+    '12322app.com' => array('12322app.com', 'www.12322app.com'),
+    'abeacon.cn' => array('abeacon.cn', 'www.abeacon.cn'),
+    'abeacon.com' => array('abeacon.com', 'www.abeacon.com'),
+    'acloud.com' => array('acloud.com', 'www.acloud.com'),
+    'applk.cn' => array('applk.cn', 'www.applk.cn'),
+    'baywest.ac' => array('baywest.ac', 'www.baywest.ac'),
+    'cooltui.com' => array('cooltui.com', 'www.cooltui.com'),
+    'fangyi.cn' => array('fangyi.cn', 'www.fangyi.cn'),
+    'ge.cn' => array('ge.cn', 'www.ge.cn'),
+    'geatmap.com' => array('geatmap.com', 'www.geatmap.com'),
+    'geindex.com' => array('geindex.com', 'www.geindex.com'),
+    'gl.ink' => array('gl.ink', 'www.gl.ink'),
+    'huadan.in' => array('huadan.in', 'www.huadan.in'),
+    'igehuo.com' => array('igehuo.com', 'www.igehuo.com'),
+    'igetui.com' => array('igetui.com', 'www.igetui.com'),
+    'pusure.com' => array('pusure.com', 'www.pusure.com'),
+    'viyouhui.com' => array('viyouhui.com', 'www.viyouhui.com'),
 
 
 
