@@ -1,6 +1,32 @@
 ! Title: adgk手机去广告规则
 ! Homepage: https://adgk.net
 ! by:酷安@坂本dalao
+||xxdongfa.com^
+||bdfirst.cn^
+||imyqb.cn^
+||hnnuange.com^
+||xxyxmdq.cn^
+||ksxcxb.cn^
+||68710266.com^
+||apptornado.com^
+||appbrain.com^
+||facebook.com/adnw_sync
+||pingfore.qq.com^
+||ping.cloud.tencent.com^
+||sensors.cloud.tencent.com^
+||as.weixin.qq.com^
+||aegis.qq.com^
+||fanyi.baidu.com/wise/afd?
+||click.fanyi.baidu.com^
+vikacg.com$$a[href="asnebula.xyz"]
+||brandadsstatic.vivo.com.cn^
+||leads.api.autohome.com.cn^
+||adsfs-sdkconfig.heytapimage.com^
+||leads.autohome.com.cn^
+vikacg.com$$a[onclick="trackOutboundLink"]
+||simengadx.com^
+||audioadx.com^
+||umsns.com^
 /ad_video_report
 /video_ad_iframe
 ||api.coolapk.com/v6/search?$replace=/hotSearch//
@@ -7346,7 +7372,6 @@ _good_id=
 /960x90.
 /300x250.
 /shouji.js*
-/all.js|
 /skin/know/*
 /mgkojt.
 /show/count.
@@ -9151,7 +9176,6 @@ $$ins[class="adsbygoogle"]
 ||stat.lizhi.fm^p=com.tencent.qqlive
 ||app.biliapi.net/x/v2/feed/index?$replace=/ad_info//
 ||app.bilibili.com/x/v2/feed/index?$replace=/ad_info//
-||api.vc.bilibili.com/dynamic_svr/v1/dynamic_svr/dynamic_new?$replace=/ad_info//
 ||app.bilibili.com/x/v2/view?$replace=/ad_info//
 ||crwdcntrl.net^
 ||dtscout.com^
@@ -24757,7 +24781,6 @@ _1xhtml?|
 yse1234.com/template/phone/imagess/sdfwe.js
 ||xn--$third-party
 ||imdns.hpplay.cn^
-||hinet.net^
 ||abie14.top^
 ||adashx.m.taobao.com^
 ||e.kuaishou.com^
@@ -24812,3 +24835,8 @@ $$p[class="ReadAd"]
 ||adstats.
 $$div[class="ad_bottom"]
 $$div[class="ad_top"]
+||hl.cn^
+||zhangyumo.top^
+||mmszxc.top^
+||yehuitudu.cn^
+||go.sohu.com^
