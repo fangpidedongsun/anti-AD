@@ -32,10 +32,12 @@
 @@||admin.mgid.com^$popup
 @@||adnet.qq.com^$~third-party
 @@||ads.askgamblers.com^$popup
+@@||ads.com^$popup
 @@||ads.fuckingmachines.com^$image,~third-party
 @@||ads.microsoft.com^$popup
 @@||ads.nipr.ac.jp^$~third-party
 @@||ads.pinterest.com^$popup
+@@||ads.spotify.com^$popup
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
@@ -61,6 +63,8 @@
 @@||allestörungen.de^$generichide
 @@||allmusic.com^$generichide
 @@||alphahistory.com^$generichide
+@@||analytics.amplitude.com^$~third-party
+@@||analytics.itunes.apple.com^$~third-party
 @@||anilinkz.io^$generichide
 @@||annhe.net^$generichide
 @@||anonytext.tk^$generichide
@@ -77,7 +81,7 @@
 @@||arstechnica.com^$generichide
 @@||authentication-api.skimlinks.com^
 @@||battle.net^
-@@||bde4.com^$generichide
+@@||bde4.cc^$generichide
 @@||bento.de^$generichide
 @@||beta.bugly.qq.com^
 @@||bicimotosargentina.com^$generichide
@@ -97,6 +101,8 @@
 @@||chinamobile.com^$generichide
 @@||chinatelecom.com.cn^
 @@||chuangkit.com^$generichide
+@@||cloud.google.com^$~third-party
+@@||cloud.mail.ru^$image,~third-party
 @@||club.tgfcer.com^$generichide
 @@||cmechina.net^$genericblock
 @@||cnprint.org^$generichide
@@ -172,6 +178,7 @@
 @@||drugs.com^$subdocument,~third-party
 @@||dx-tv.com^$generichide
 @@||e24.no^$generichide
+@@||e9china.net^$generichide
 @@||easylife.tw^$generichide
 @@||ecitic.com^
 @@||edmondpoon.com^$generichide
@@ -192,7 +199,6 @@
 @@||fharr.com^$generichide
 @@||fitshr.net^$script,stylesheet
 @@||flattr.com^$generichide
-@@||flvto.biz^$generichide
 @@||fontawesome.com^$generichide,~third-party
 @@||freeomovie.com^$generichide
 @@||freevaluator.com^$generichide
@@ -214,7 +220,6 @@
 @@||go4up.com^$generichide
 @@||gogi.in^$generichide
 @@||golangnote.com^$generichide
-@@||googlecommerce.com^$script
 @@||gooogle.how^$generichide
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
@@ -225,16 +230,16 @@
 @@||hh010.com^$generichide
 @@||history.com^$generichide
 @@||huffingtonpost.co.uk^$generichide
-@@||huffingtonpost.com^$generichide
 @@||ibf.tw^$generichide
 @@||ifttt.com^$generichide
 @@||image.coolapk.com^
 @@||imaster.space^$websocket
+@@||imdb-video.media-imdb.com^$media,script,xmlhttprequest
 @@||img.ads.tvb.com^
-@@||img.highloadtest.com^$image
 @@||indiangilma.com^$generichide
 @@||informer.com^$generichide
 @@||inoreader.com^$genericblock,generichide
+@@||ipfs-lab.com^$generichide
 @@||jadult.net^$generichide
 @@||javcen.me^$generichide
 @@||javhub.net^$generichide
@@ -256,6 +261,7 @@
 @@||league-funny.com^$script,~third-party
 @@||leagueofmovie.com^$generichide
 @@||lemon-ads.com^$~document,~third-party
+@@||lemon.baidu.com^
 @@||lfporn.com^$generichide
 @@||link.tl^$generichide
 @@||liumingye.cn^$generichide
@@ -299,12 +305,11 @@
 @@||oiihk.com^$generichide
 @@||olgame.tw^$generichide
 @@||ondemand.sas.com^$subdocument
-@@||onemanhua.com^$generichide
-@@||onemanhua.com^$xmlhttprequest
 @@||optout.networkadvertising.org^$document
 @@||ouo.press^$generichide
 @@||palimas.com^$generichide
 @@||panjiachen.github.io^$generichide
+@@||pass.1688.com^$subdocument
 @@||passets-cdn.pinterest.com^
 @@||passiontimes.hk^$generichide
 @@||payload.cargocollective.com^$image,~third-party
@@ -316,8 +321,8 @@
 @@||pingjs.qq.com^$~third-party
 @@||pixelexperience.org^$generichide
 @@||play-old-pc-games.com^$generichide
-@@||playedvid.com^$generichide
 @@||player.sundaysky.com^$subdocument
+@@||plugins.matomo.org^$image,~third-party
 @@||poedb.tw^$generichide
 @@||pornbraze.com^$generichide
 @@||pornscum.com^$generichide
@@ -361,6 +366,7 @@
 @@||social.krunker.io^$~third-party
 @@||socialmedia.by^$~third-party
 @@||softwarebrother.com^$generichide
+@@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||spanishdict.com^$generichide
 @@||spaste.com^$script
 @@||speedtest.net^
@@ -369,8 +375,8 @@
 @@||stclassifieds.sg^$generichide
 @@||stream4free.live^$generichide
 @@||streamplay.to^$generichide
-@@||streamtheworld.com^$media,third-party
 @@||suicidegirlsfree.com^$generichide
+@@||sw88.disney.co.jp^$image
 @@||swiso.org^$generichide
 @@||switching.software^$generichide
 @@||swjoy.com^
@@ -393,7 +399,6 @@
 @@||tomshardware.com^$generichide
 @@||transferwise.com^$generichide
 @@||trip.cmbchina.com^$generichide
-@@||tstrs.me^$generichide
 @@||ttkdex.com^$generichide
 @@||tuhu.cn^
 @@||tui.click^$generichide

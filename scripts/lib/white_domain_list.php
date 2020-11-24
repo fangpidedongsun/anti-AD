@@ -127,7 +127,7 @@ return array(
     'wanproxy.127.net' => 0, // #137
     'shouji.360.cn' => 0, // #136
     'ae01.alicdn.com' => 0, // #142
-    'pingjs.qq.com' => 0, // #143
+   // 'pingjs.qq.com' => 0, // #143
     'shifen.com' => 0, // 百度的cname
     'f10.baidu.com' => 0, // 百度公众号图片
     'f11.baidu.com' => 0, // 百度公众号图片
@@ -156,6 +156,38 @@ return array(
     'zaloapp.com' => 0, // #230
     'manhuachi.com' => 0, // #238
     'push2.eastmoney.com' => 0, // #239
+    'slashdot.org' => 0, // #242
+    'iwx.mail.qq.com' => 0, // #243
+    'ename.net' => 0, // #246
+    'api.iplay.163.com' => 0, // #247
+    'minorshort.weixin.qq.com' => 0, // 微信滑动验证码 
+    'pusher.com' => 0, // #248
+    'bluehost.com' => 0, // #249
+    'hosting24.com' => 0, // #252
+    'pdc.micloud.xiaomi.net' => 0, // #256
+    'valf.atm.cp31.ott.cibntv.net' => 0, // #257
+    'sf1-ttcdn-tos.pstatp.com' => 0, // #258
+    'sf3-ttcdn-tos.pstatp.com' => 0, // #258
+    'upload.cc' => 0, // #262
+    'yql.yahoo.com' => 0, // #263
+    'naifei.shop' => 0, // #267
+    'tagtic.cn' => 0, // #266
+    'settings-win.data.microsoft.com' => 0, // #268
+    'db5-eap.settings-win.data.microsoft.com.akadns.net' => 0, // #268
+    'db5.settings-win.data.microsoft.com.akadns.net' => 0, // #268
+    'geo.settings-win.data.microsoft.com.akadns.net' => 0, // #268
+    'printfriendly.com' => 0, // #272
+    'cnnic.cn' => 0, #274
+    'ss.cnnic.cn' => 0, #274
+    'www.cnnic.cn' => 0, #274
+    'cnnic.net' => 0, #274
+    'www.cnnic.net' => 0, #274
+    'cnnic.net.cn' => 0, #274
+    'www.cnnic.net.cn' => 0, #274
+    'c.gj.qq.com' => 0, #273
+    'isee.weishi.qq.com' => 0, #270
+    'direct.wap.zol.com.cn' => 0, #275
+    'imop.com' => 0, #283
     
     
     

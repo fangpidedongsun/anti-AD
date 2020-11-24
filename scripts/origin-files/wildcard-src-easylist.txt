@@ -1,6 +1,6 @@
 ||*.feipukeplus.com^$domain=m.qqm4.com^
 ||*.wap.xsbiquge.com^
-||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
+||*^sdtfrom=^$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com^
 ||*p2p*douyucdn.cn^
 ||*serror*.wo.com.cn^
@@ -13,7 +13,6 @@
 ||activity.*.miui.com^
 ||adi*.cnool.net^
 ||adr-*.vindicosuite.com^
-||ads-*.hulu.com^
 ||aff*.kolektiva.net^
 ||analytics-beacon-*.amazonaws.com^
 ||anet*.tradedoubler.com^$third-party
@@ -31,6 +30,7 @@
 ||caw.*.criteo.com^$third-party
 ||collect.*.miui.com^
 ||collector-*.elb.amazonaws.com^$image,third-party
+||collector-*.px-client.net^
 ||collector-*.tvsquared.com^
 ||d*.ruiwen.com^
 ||d*.wanzhuang.com^
@@ -58,7 +58,7 @@
 ||log*.ku6.com^
 ||log-*.previewnetworks.com^
 ||logger-*.dailymotion.com^
-||lts*.qq.com^*.ts?index=$rewrite=abp-resource:blank-mp3,domain=qq.com
+||lts*.qq.com^*.ts?index=$media,rewrite=abp-resource:blank-mp3,domain=qq.com
 ||mcdp-*.outbrain.com^
 ||metric*.rediff.com^
 ||metro-trending-*.amazonaws.com^$third-party
@@ -91,5 +91,4 @@
 ||vix.*.criteo.net^$domain=spiegel.de
 ||vix.*.criteo.net^$third-party
 ||vtnlog-*.elb.amazonaws.com^
-||www*.swatchseries.to^$script
 ||ya*.dwstatic.com^

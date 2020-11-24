@@ -161,7 +161,6 @@
 127.0.0.1 appc.baidu.com
 127.0.0.1 as.baidu.cn
 127.0.0.1 as.baidu.com
-127.0.0.1 ashifen.com
 127.0.0.1 baichuan.baidu.com
 127.0.0.1 baidu9635.com
 127.0.0.1 baidustatic.com
@@ -297,7 +296,6 @@
 127.0.0.1 sestat.baidu.com
 127.0.0.1 shadu.baidu.com
 127.0.0.1 share.baidu.com
-127.0.0.1 shifen.com
 127.0.0.1 snippet.pos.baidu.com
 127.0.0.1 sobar.baidu.com
 127.0.0.1 sobartop.baidu.com
@@ -529,7 +527,6 @@
 127.0.0.1 security.browser.miui.com
 127.0.0.1 shenghuo.xiaomi.com
 127.0.0.1 stat.pandora.xiaomi.com
-127.0.0.1 tracking.miui.com
 127.0.0.1 union.mi.com
 127.0.0.1 wtradv.market.xiaomi.com
 127.0.0.1 xmpush.xiaomi.com
@@ -971,7 +968,6 @@
 127.0.0.1 e.nexac.com
 127.0.0.1 eq.10jqka.com.cn
 127.0.0.1 exp.17wo.cn
-127.0.0.1 fund.10jqka.com.cn
 127.0.0.1 game.51yund.com
 127.0.0.1 ganjituiguang.ganji.com
 127.0.0.1 grand.ele.me

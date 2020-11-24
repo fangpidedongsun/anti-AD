@@ -60,7 +60,7 @@ $ARR_MERGED_WILD_LIST = array(
     '*log.droid4x.cn' => null,
     '*tsdk.vivo.com.cn' => null,
     '*.mmstat.com' => null,
-    'sf*-ttcdn-tos.pstatp.com' => null,
+    //'sf*-ttcdn-tos.pstatp.com' => null,
     'f-log*.grammarly.io' => null,
     '24log.*' => null,
     '24smi.*' => null,
@@ -70,7 +70,6 @@ $ARR_MERGED_WILD_LIST = array(
     'doubleclick*.xyz' => null,
     'thepiratebay.*' => null,
     'adserver.*' => null,
-//    'advert*.*' => null,
     'clientlog*.music.163.com' => null,
     'brucelead*.com' => null,
     'gostats.*' => null,
@@ -82,6 +81,48 @@ $ARR_MERGED_WILD_LIST = array(
     'sda*.xyz' => null,
     'ad-*.com' => null,
     'ad-*.net' => null,
+    'webads.*' => null,
+    'web-stat.*' => null,
+    'waframedia*.*' => null,
+    'wafmedia*.*' => null,
+    'voluumtrk*.com' => null,
+    'vmm-satellite*.com' => null,
+    'vente-unique.*' => null,
+    'vegaoo*.*' => null,
+    'umtrack*.com' => null,
+    'grjs0*.com' => null,
+    'imglnk*.com' => null,
+    'admarvel*.*' => null,
+    'admaster*.*' => null,
+    'adsage*.*' => null,
+    'adsensor*.*' => null,
+    'adservice*.*' => null,
+    'adsh*.*' => null,
+    'adsmogo*.*' => null,
+    'adsrvmedia*.*' => null,
+    'adsserving*.*' => null,
+    'adsystem*.*' => null,
+    'adwords*.*' => null,
+    'analysis*.*' => null,
+    'applovin*.*' => null,
+    'appsflyer*.*' => null,
+    'domob*.*' => null,
+    'duomeng*.*' => null,
+    'dwtrack*.*' => null,
+    'guanggao*.*' => null,
+    'lianmeng*.*' => null,
+    'monitor*.*' => null,
+    'omgmta*.*' => null,
+    'omniture*.*' => null,
+    'openx*.*' => null,
+    'partnerad*.*' => null,
+    'pingfore*.*' => null,
+    'socdm*.*' => null,
+    'supersonicads*.*' => null,
+    'tracking*.*' => null,
+    'usage*.*' => null,
+    'wlmonitor*.*' => null,
+    'zjtoolbar*.*' => null,
 );
 
 $ARR_REGEX_LIST = array(
@@ -119,6 +160,7 @@ $ARR_REGEX_LIST = array(
     '/^(\S+\.)?voyage-prive\.[a-z]+(\.uk)?$/' => null, //组合
     '/^(\S+\.)?e7[0-9]{2,4}\.(net|com)?$/' => null, //组合
     '/^(\S+\.)?g[1-4][0-9]{8,9}\.com?$/' => null, //批量组合
+    '/^(\S+\.)?hg[0-9]{4,5}\.com?$/' => null, //批量组合
 
     // '/^(\S+\.)?(?=.*[a-f].*\.com$)(?=.*\d.*\.com$)[a-f0-9]{15,}\.com$/' => null,
 );
@@ -139,6 +181,7 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||advertisement.taobao.com^' => 1, //CNAME 被杀，导致s.click.taobao.com等服务异常
     '@@||baozhang.baidu.com^' => 1, //CNAME e.shifen.com 
     '@@||tongji.edu.cn^' => 1, // 同济大学
+    '@@||tongji.cn^' => 1, // 同济大学 #281
     '@@||ad.siemens.com.cn^' => 1, // 西门子下载中心
     '@@||sdkapi.sms.mob.com^' => 1, // 短信验证码 #127
     '@@||stats.gov.cn^' => 1, // 国家统计局 #144
@@ -147,6 +190,10 @@ $ARR_WHITE_RULE_LIST = array(
     '@@||api.ad-gone.com^' => 1, // #207
     '@@||news-app.abumedia.yql.yahoo.com^' => 1, // #206
     '@@||meizu.coapi.moji.com^' => 1, // #217
+    '@@||track.cpau.info^' => 1, // #251
+    '@@||passport.bobo.com^' => 1, // #265
+    '@@||stat.jseea.cn^' => 1, // #279
+    '@@||widget.intercom.io^' => 1, // #280
 );
 
 //针对上游赦免规则anti-AD不予赦免的规则，即赦免名单的黑名单
@@ -224,7 +271,7 @@ while(!feof($src_fp)){
         continue;
     }
 
-    if(($row{0} === '!') && (substr($row, 0, 13) === '!TOTAL_LINES=')){
+    if(($row{0} === '!') && (substr($row, 0, 13) === '!Total lines:')){
         $insert_pos = $written_size;
     }
 
@@ -318,7 +365,7 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
 }
 
 if(($insert_pos > 0) && (fseek($new_fp, $insert_pos) === 0)){
-    fwrite($new_fp, "!TOTAL_LINES={$line_count}\n");
+    fwrite($new_fp, "!Total lines: {$line_count}\n");
 }
 
 fclose($src_fp);

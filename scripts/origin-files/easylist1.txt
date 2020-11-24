@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202009121649
+! Version: 202011212234
 ! Title: CJX's Annoyance List
-! Last modified: 2020/09/12 16:49 +0800
+! Last modified: 2020/11/21 22:34 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -29,6 +29,7 @@
 /z.zolapp.
 =Ad_ZPlusGoods&
 !------------------------General element hiding rules-------------------------!
+##img[src*=".duoduose.info/"][width="450"]
 ###doyoo_mon_mask
 ###doyoo_monitor
 ##.siteAnn1
@@ -410,7 +411,22 @@
 ||sogoucdn.com/translate/ssr/static/img/banner-
 ||cls.cn/v2/web/ad?
 ||aisixiang.com/images/*-20
+||yiihuu.com/assets/common/yh/js/yh.ad.
+||guokr.com/apis/flowingboard/item/guokrapp_
+||csdnimg.cn/common/redpack/redpack.js
+||w3cschool.cn/index/*Advert
 !------------------------Specific element hiding rules------------------------!
+offcn.com###offcn_yx
+3dmgame.com##.modAD
+csdn.net###passportbox
+csdn.net##.login-mark
+21ic.com##.appxb
+csdn.net##.toolbar-advert
+cnitpm.com##.erweima
+iviewui.com##.ivu-alert
+sogou.com##.aside-qcode
+sogou.com##.trans-side-banner
+gas.goodlife.tw###widgets
 mati.hk##.banner_middle
 720yun.com##DIV[class^="Ads_ads_"]
 baidu.com###copyright + .banner
@@ -873,7 +889,6 @@ neihanshequ.com###pageletBottomBanner
 neihanshequ.com###pageletTopBanner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 kaopu001.com###pokemon
-meituan.com###pop
 52wmb.com###popContent
 wbiao.cn###popupImgCorner
 acfun.cn###prompt-box
@@ -1276,7 +1291,7 @@ m.babytree.com##script + a[class]
 @@||th7.cn/sanda2015/css/ads.js
 @@||lancdn.com/landian/public/js/ads.js
 @@||qbox.me/static/js/ads.js$domain=linux.cn
-@@/adview_pic_$domain=doutula.com|fastadmin.net|xclient.info
+@@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!

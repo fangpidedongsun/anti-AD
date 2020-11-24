@@ -1,6 +1,95 @@
 ! Title: adgk手机去广告规则
 ! Homepage: https://adgk.net
 ! by:酷安@坂本dalao
+||nadvideo2.baidu.com^
+||admobile.top^
+||dgstatic.jd.com^
+||10010.com/mobileService/customer/getTenxuAdvConfig.htm
+||m.client.10010.com/small_video/myLiveList^
+||m.client.10010.com/finderInterface^
+||xayjx.cn^
+/js/wap2-jm-zz.js
+bde4.cc$$script[tag-content="jsjiami.com"]
+||bde4.cc/js/aes.js
+bde4.com,bde4.cc$$a[href="yabo"]
+bde4.com,bde4.cc$$script[tag-content="yabo"]
+bde4.com,bde4.cc$$script[tag-content="ads"]
+||rijutv.com/statics/skin/hjtv-wap/js/plus.js?
+||rijutv.com/statics/ajs/alltj.js
+||rijutv.com/statics/alljs/rijutvapp.js?
+||c.mse.360.cn^
+||se.360.cn^
+||sdk.look.360.cn/sdkv2/popconf?
+||dp.push.dc.360.cn/v1/list/ip?
+||maizixueyuan*/js/html*.js
+||longtenghuaxia*/js/html*.js
+||dybz*/js/html*.js
+||diyibanzhu*/js/html*.js
+||ssznrs.com^
+||kubam.cn^
+||ee035.cn^
+||newqiyu.com/*/ads^
+||beiwaicd.com^
+lzdcctv.cn$$div[class="ac_pc"]
+lzdcctv.cn$$div[class="slinks"]
+||huigun.top^
+||zz2143.com/img/*.gif
+||9wx.org/statics/js/new.js
+||p.pstatp.com/origin/ff1a0001f72b80a2ad90
+||cdn.jinfu.love/maizhan/js/age.js
+||jbpbox.com^
+||log.ergeduoduo.com^
+||biquge.com.cn/hit.php
+||nongzhifu.cn^
+||xbiquge.me/api/stat/novel^
+||jinxiuzhilv.com^
+||nongzhifu.cn^
+||egozne.cn^
+||52bqg.net/wap.js
+||jysbj.cn^
+||qhdzljxsb.cn^
+||biquge.com.cn/js/ffvvddf.js
+||jfsdiwmnbsk002.top^
+||prjslxhtx005.top^
+||biquge.com.cn/js/reader.js
+||mudezs.com^
+||yb450.app^
+||nfmovies.com/static^
+||nfmovies.com^$replace=/adsTime = 15/adsTime = 1/
+||nfmovies.com/pic/tu^
+||www.naifei.shop^$third-party
+||nfmovies.com/playg$empty
+||jx.nfmovies.com/?downloadprohibited
+||app.market.xiaomi.com/apm/zone/myPage
+||app.market.xiaomi.com/apm/floaticonV2?$replace=/adsTagId//
+/17mb/script/wap.js|
+||dmswhw.cn^
+||iouqxvr.cn^
+||csg99.com/17mb/script/vcnhitro.js
+||tjtiebz.cn^
+||uiqjcpt.cn^
+||ltsnpw.cn^
+||shenxiangkeji.com^
+@@||lemon.baidu.com^
+||yabo816.com^
+||ltxs.me/js/wap.js
+||abie25.top^
+||market.xiaomi.com/*/ad^
+||news-log.lsttnews.com^
+||ku6.com^
+||pimlog.baidu.com^
+||track.readdsp.com^
+/js/qiguo.js
+/js/xxchapter.js
+||longtan.in^
+||aliyune.xyz^
+||cstm.baidu.com^
+||baidu.com/tc?
+||91.51rmc.com^
+||trac.i3.dmm.com^
+||cc9514.com/img^
+||dcapi.365kqzs.cn^
+||api.simpleruning.cn/api/adserving^
 ||xxdongfa.com^
 ||bdfirst.cn^
 ||imyqb.cn^
@@ -49,7 +138,6 @@ vikacg.com$$a[onclick="trackOutboundLink"]
 ||inpagepush.com^
 ||prxymecb.cn^
 ||pxjjqtg.cn^
-bde4.com$$script[tag-content="ads"]
 ||zxptw.cn^
 /\/ad\d*\./$script
 ||qhcksjb.com/static/js/lunbo.js
@@ -129,7 +217,6 @@ advertisers.js|
 ||channel.m.163.com^
 ||gw.m.163.com/nc-main/api/v1/hqc/no-repeat-hot-list
 ||g.163.com^
-||wappass.bdimg.com/static/appsapi^
 ||data.game.xiaomi.com/1px.gif
 ||sec.umeng.com^
 ||fnpet.cn^
@@ -340,7 +427,6 @@ zhidao.baidu.com,www.baidu.com##DIV#wgt-related-questions
 zhidao.baidu.com,www.baidu.com##UL[class='feed-recommend-list']
 zhidao.baidu.com,www.baidu.com##DIV[class='new-answer-entry left-show']
 www.baidu.com$@$div[class="ad_"]
-||app.market.xiaomi.com/apm/zone/myPage
 ||apd-*.v.smtcdns.com/vhot2.qqvideo.tc.qq.com^
 zhidao.baidu.com,www.baidu.com##FOOTER#respect-footer
 tieba.baidu.com$$a[class="ti_item j_click_stats"]
@@ -4935,7 +5021,6 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 ||pdsjycm.com^
 ||pee.cn^
 ||penggua.com.cn^
-||pgl.yoyo.org
 ||pguf.top^
 ||piaodown.com/other/$script,document
 ||picsinfog.com^
@@ -5887,7 +5972,6 @@ zznews.cn##.ad:not([style="margin-top:0px;padding-top:0px;"]),.ad1000-60
 @@||android.bugly.qq.com/rqd/async?aid=47fefd70-7c99-4821-b989-25e49187e5e2$app=com.bilibili.app.blue
 @@||changyan.sohu.com/api/2^$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/v4/biquge/SearchEngine.html$app=com.biquge.ebook.app
-||aos-cdn.huami.com/hm-js-bridge/2.0.0/HM_JsBridge.js$app=com.xiaomi.hm.health
 @@||f11.baidu.com/it^
 @@||c.data.mob.com^$app=com.sinovatech.unicom.ui
 ||file-yuedu.iqiyi.com/book^$app=com.qiyi.video
@@ -7107,7 +7191,6 @@ mbd.baidu.com##.commonPadding
 gitee.com##IMG[class='float-people']
 ||images.gitee.com/uploads^
 ||m.diyibanzhu.life/js/wap.js
-||m.diyibanzhu.life/js/htmlk1.js
 www.rmdown.com##a[href^="\*alicdn.com/"]
 ||d.fjqinan.com/app/semob5.16.12_161250_R19355_121098028_build58080_2.1.0.2367.apk
 ||o.a0shop.top^
@@ -7142,7 +7225,6 @@ ad.wx.com^
 ||zhidao.baidu.com/mobile/ajax^
 ||sofire.bdstatic.com^
 ||2.arpun.com^
-var targetProtocol = "https:";
 window.location.href = targetProtocol +
 window.location.href.substring(window.location.protocol.length);
 ||c.mp.qq.com/api/union^
@@ -9169,7 +9251,6 @@ piao.js|
 ||sd.taptap.com^
 ||65h79.cn^
 /template/23ttav/js/aa.htm
-||bdstatic.com/common^
 ||hpd.baidu.com^
 ||baidu.com^$app=com.tencent.qqlive
 $$ins[class="adsbygoogle"]
@@ -9188,9 +9269,7 @@ $$ins[class="adsbygoogle"]
 ||video.dispatch.tc.qq.com^
 ##div.a_fr.a_cb,div.a_fl.a_cb,div.a_cn,div.wp.a_h
 ||dxp.baidu.com^
-/nsdk/
 ||jx.lyhanda.com^
-||show.1688.com^
 baidu.com$$div[class="hotword-container"]com^
 ||nhentai.com/images/offers/ga/desktop/
 ||dataflow.biliapi.com^
@@ -9221,7 +9300,6 @@ iptv444.com$$a[target="_blank"]
 ||xcggpt.com^
 ||iscrv.com^
 ||satismeter.com^
-||zimuku.la^
 /slade.js
 $$div[class="ad-banner-wrapper"]
 ##.ad-banner-wrapper
@@ -9326,9 +9404,6 @@ wuhaozhan.net$$div[class="item-box"]
 ||huoyiad1.cn^
 ||huoyiad2.cn^
 ||liufenghua.com^
-/js/htmlkb.js
-/js/htmlka.js
-/js/htmlkc.js
 /js/xxchapter.js
 ||adgomob.com^
 ||lcvfar.com^
@@ -15428,7 +15503,6 @@ _yad_jsonp_
 ||sinaimg.cn/mw690/a1916e89gw1dye4d6qvyaj.jpg
 ||sinaimg.cn/mw690/a1916e89gw1dye4d74zmij.jpg
 ||sinaimg.cn/unipro/
-||sinaimg.cn^$domain=04stream.tv|11luba.com|11papapa.com|12580sky.com|18board.com|18p2p.com|22ccaa.com|360bifen.com|46bk.com|500xxxx.com|522dy.com|63ef.com|678pan.vip|7mav2.com|7mshipin.org|94xxmm.com|999hdhd.com|99a21.com|9dog.pw|a3v4.top|abminbuy.com|acglover.me|aotu101.com|aotu103.com|bejson.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|cangjige.win|caoliuzx.com|ccxx99.com|cgfdjz.net|cnmysoft.com|dxg06.com|ems183.cn|fdzone.org|fulitxx.com|goodzhibo.com|ifulidh.in|izzs.cc|jiecao123.com|kccdk.com|kiees.cn|kisssub.org|landiannews.com|lifan.moe|llj22.com|mahuazy.net|neonan.com|niluba.cc|pianyuan.net|rarbt.cc|sbme.me|se533.com|subku.net|supfree.net|thztv.cc|tiantianzhibo.com|tiyulive.cn|txtshu365.com|viidii.info|vx666.com|wszhibo.com|yaoshe1.com|zhibo8.xyz|zimuku.cn|zimuku.la
 ||sinaimg.cn^*/deco/$script
 ||sinaimg.cn^*_wap_ad_
 ||sinaimg.com^$domain=dayanzai.me
@@ -24650,7 +24724,6 @@ xdean.cc##div.widget.widget_media_image
 ||rtbapi.douyucdn.cn^
 ||mi1.cc^
 ||56yk.com^
-||nfmovies.com/pic/tu^
 ||man7777.com^
 /advertising^
 ||api.zhuti.xiaomi.com/app/v9/uipages$replace=/adInfo//
@@ -24733,7 +24806,6 @@ QURna+inhOWImQ==
 ||amghrrz.cn^
 ||sgcmoeu.cn^
 ||app.market.xiaomi.com/apm/recommend/downloadmanagerV2?
-||app.market.xiaomi.com/apm/floaticonV2?
 ||app.market.xiaomi.com/apm/recommend/upgradepage?
 ||app.market.xiaomi.com/apm/recommend/relatedapps?
 ||r.browser.miui.com^
