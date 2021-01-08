@@ -34,7 +34,6 @@ $ARR_MERGED_WILD_LIST = array(
     'dsp*.youdao.com' => null,
     'pussl*.com' => null,
     'putrr*.com' => null,
-    'ad*.360.cn' => null,
     't*.a.market.xiaomi.com' => null,
     'ad*.bigmir.net' => null,
     'log*.molitv.cn' => null,
@@ -111,7 +110,7 @@ $ARR_MERGED_WILD_LIST = array(
     'dwtrack*.*' => null,
     'guanggao*.*' => null,
     'lianmeng*.*' => null,
-    'monitor*.*' => null,
+    //'monitor*.*' => null,
     'omgmta*.*' => null,
     'omniture*.*' => null,
     'openx*.*' => null,
@@ -271,7 +270,7 @@ while(!feof($src_fp)){
         continue;
     }
 
-    if(($row{0} === '!') && (substr($row, 0, 13) === '!Total lines:')){
+    if((substr($row, 0, 1) === '!') && (substr($row, 0, 13) === '!Total lines:')){
         $insert_pos = $written_size;
     }
 
@@ -322,7 +321,7 @@ $whiterule = file(WHITERULE_SRC, FILE_SKIP_EMPTY_LINES | FILE_IGNORE_NEW_LINES);
 $whiterule=array_fill_keys($whiterule, 0);
 $ARR_WHITE_RULE_LIST = array_merge($whiterule, $ARR_WHITE_RULE_LIST);
 foreach($ARR_WHITE_RULE_LIST as $row => $v){
-    if(empty($row) || $row{0} !== '@' || $row{1} !== '@'){
+    if(empty($row) || substr($row, 0, 1) !== '@' || substr($row, 1, 1) !== '@'){
         continue;
     }
     $matches = array();
@@ -341,7 +340,7 @@ foreach($ARR_WHITE_RULE_LIST as $row => $v){
     }
 
     foreach($wrote_wild as $core_str => $val){
-        if($core_str{0} === '/'){
+        if(substr($core_str, 0, 1) === '/'){
             $match_rule = $core_str;
         }else{
             $match_rule = str_replace(array('.', '*'), array('\\.', '.*'), $core_str);

@@ -188,6 +188,12 @@ return array(
     'isee.weishi.qq.com' => 0, #270
     'direct.wap.zol.com.cn' => 0, #275
     'imop.com' => 0, #283
+    'mobilelog.kugou.com' => 0, #286
+    'bssdlbig.kugou.com' => 0, #286
+    'tvzhe.com' => 0, #290
+    'stats.gc.apple.com' => 0, #296
+    'img1.sj.qq.com' => 0, #294
+    'live.simcitybuildit.com' => 0, #303
     
     
     

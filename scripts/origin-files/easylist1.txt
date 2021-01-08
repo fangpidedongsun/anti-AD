@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202011212234
+! Version: 202101062306
 ! Title: CJX's Annoyance List
-! Last modified: 2020/11/21 22:34 +0800
+! Last modified: 2021/01/06 23:06 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -29,7 +29,6 @@
 /z.zolapp.
 =Ad_ZPlusGoods&
 !------------------------General element hiding rules-------------------------!
-##img[src*=".duoduose.info/"][width="450"]
 ###doyoo_mon_mask
 ###doyoo_monitor
 ##.siteAnn1
@@ -164,7 +163,6 @@
 ||gtimg.com/pingjs/ext2020/dc2017/dist/m_tips/tips.js
 ||gz-chengkao.com/js/duo.js
 ||hahamx.cn/images/banner/
-||hanjutv.com/public/js/layer/layer.js
 ||hao123img.com/v4/MB/xU/jy/VY/YX/MBxUjyVYYX.js
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||hexun.com/2016/pc/618.swf
@@ -415,7 +413,51 @@
 ||guokr.com/apis/flowingboard/item/guokrapp_
 ||csdnimg.cn/common/redpack/redpack.js
 ||w3cschool.cn/index/*Advert
+||sinaimg.cn/news/diversion/index2/static/js/index.
+||sinaimg.cn^*/pushDiversion*.js
+||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
+||iviewui.com/v1/*?name=
+||sinaimg.cn/news/article/article_qcode
+||niuacc.com/static/common/js/145.js
+||yyetss.com/static/modal.js
+||pcauto.com.cn/zt/*_dialog/cjx-pc-half_
+||thepaper.cn/bottomBanner_
 !------------------------Specific element hiding rules------------------------!
+699pic.com###landlord
+699pic.com##.springtime-floatLink
+699pic.com##.springtime-pop
+699pic.com##.winpopbg
+tuchong.com##.float
+baidu.com##.desktop-guide
+bilibili.com##.video-page-game-card
+ldmnq.com##.dialog-game
+hupu.com###game-center-entrance-container
+hupu.com##DIV[class^="game-center-"]
+sina.cn###j_toTop ~ .fl_suspension_template
+sina.cn##.zhidi
+sina.cn###j_gotop ~ .fl_suspension_template
+sina.cn##.sw_c0.fix_top
+niuacc.com##.masks
+niuacc.com##.yure
+niuacc.com##.botLm-container
+sina.com.cn##.fl_feedFous
+sina.com.cn##.tab_related_app_imglink
+nipic.com##.vip_show
+nipic.com##.vip_homeshow
+baidu.com##.guide-to-univer-app-root
+baidu.com##.pop-manager-view-containter
+wendu.com##.foot_adv
+wendu.com##.head-banner
+baidu.com##.search-box-wrapper + .pager-container
+baidu.com##.fufei-activity-bar
+360doc.com##.floatqrcode
+xueqiu.com##.widget__download-app
+123.com.cn##.bottom-ylink
+123.com.cn##.fixed-top
+douyu.com##.index-common-1-rrh
+chsi.com.cn##.zx-axvert
+xdf.cn##.popup-wrap
+sina.com.cn##.redPacketCont
 offcn.com###offcn_yx
 3dmgame.com##.modAD
 csdn.net###passportbox
@@ -541,7 +583,6 @@ znds.com###diy_mobanbus_view_right2
 meijuxingqiu.com##.fixed-bottom-bar
 iqiyi.com##.m-hotWords-bottom
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
-hanjutv.com###widget-weixin
 ifeng.com##DIV[class^="enquiry_bottom"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="bottomSlide"]
@@ -1079,7 +1120,6 @@ nen.com.cn##.for3gagzy
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 it168.com##.fu1020_box
 eastmoney.com##.fund-pop
-hanjutv.com##.ggw_fr
 55haitao.com##.global-dialog
 1kkk.com,dm5.com##.guide
 baixing.com##.guide-video-app
