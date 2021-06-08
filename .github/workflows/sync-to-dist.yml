@@ -1,16 +1,13 @@
 name: sync list to dist
 
 on:
-  schedule:
-    - cron: "16 13 */3 * *"
   push:
     branches: 
       - 'master'
     paths: 
-      - 'anti-ad-*.txt'
-      - 'anti-ad-*.conf'
-      - 'anti-ad-*.yaml'
+      - 'anti-ad-**.*'
       - 'adblock-for-dnsmasq.conf'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -24,6 +21,9 @@ jobs:
     - name: copy some list files
       run: |
         cp ./anti-ad-easylist.txt ~/website/docs/easylist.txt
+        cp ./anti-ad-easylist.txt.md5 ~/website/docs/easylist.txt.md5
+        cp ./anti-ad-adguard.txt ~/website/docs/adguard.txt
+        cp ./anti-ad-adguard.txt.md5 ~/website/docs/adguard.txt.md5
         cp ./adblock-for-dnsmasq.conf ~/website/docs/dnsmasq.conf
         cp ./adblock-for-dnsmasq.conf ~/website/docs/anti-ad-for-dnsmasq.conf
         cp ./anti-ad-smartdns.conf ~/website/docs/anti-ad-for-smartdns.conf

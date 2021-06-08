@@ -11,7 +11,8 @@
 | 文件 	| raw 	| 官网地址 	| 适用于 	|
 | --------------------------------	|:------------------:	| ----------------	|---------------------------------------------	|
 | `adblock-for-dnsmasq.conf` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf) 	| [官网地址，更稳定](https://anti-ad.net/anti-ad-for-dnsmasq.conf) 	| dnsmasq及其衍生版本 	|
-| `anti-ad-easylist.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt) 	| [官网地址，更稳定](https://anti-ad.net/easylist.txt)	| AdGuardHome 	|
+| `anti-ad-easylist.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt) 	| [官网地址，更稳定](https://anti-ad.net/easylist.txt)	| AdGuardHome（DNS过滤） 	|
+| `anti-ad-adguard.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt) 	| [官网地址，更稳定](https://anti-ad.net/adguard.txt)	| AdGuard（匹配整个URL的域名部分） 	|
 | `anti-ad-domains.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt) 	| [官网地址，更稳定](https://anti-ad.net/domains.txt)	| Pi-Hole或其他。 	|
 | `anti-ad-surge.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt) 	| [官网地址，更稳定](https://anti-ad.net/surge.txt)	| Surge或其他工具。 	|
 | `anti-ad-surge2.txt` 	| [link](https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt) 	| [官网地址，更稳定](https://anti-ad.net/surge2.txt)	| Surge或其他工具，DOMAIN-SET 格式性能更好。 	|
@@ -20,20 +21,16 @@
 
 ## 版本历史
 
+#### v4.5.1 (2021.05.31)
+- 移动构建脚本到[另一个分支](https://github.com/privacy-protection-tools/anti-AD/tree/adlist-maker)，让默认分支看起来更干净
+- github Actions的针对性优化，优化自动构建逻辑
+- anti-AD仍然是一个完全开源的项目
+- 没有了
 
-#### v4.3 (2020.02.04)
-- 引入无效域名、无效hosts剔除机制，大幅提升各过滤列表命中率
-- 为了更好的支持pi-hole，加入一个新的全域名列表 - `anti-ad-domains.txt`
-- 根据网友 [@xlighting2017](https://github.com/privacy-protection-tools/anti-AD/issues/29) 建议，更新surge的格式
-- 引入数个新的配置参数，对输出结果精确控制
-- 若干bug和逻辑修复
-
-#### v4.2.2 (2020.02.02)
-
-- 传统白名单增强模式，支持根域名单独加白而不影响其子域名
-- 开始支持自动同步到另一个repo，自动发布更新
-- 开始引入官网，逐步建设完善
-- 修复一些逻辑bug
+#### v4.5.0 (2021.05.02)
+- 重构工具`easylist-extend.php`，优化提升3倍执行效率
+- 修复一部分小bug
+- 开始支持[AdGuardHome新的modifiers](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#modifiers)语法(目前测试阶段，adgh本身解析还有bug)
 
 #### [更多版本演进历史>>>](https://github.com/privacy-protection-tools/anti-AD/blob/master/changelog.md)
 
@@ -48,8 +45,9 @@ anti-AD在自我认知上始终是一个非主流的小众项目，受众群体�
 加入QQ群更实时的交流：716981535 <br>
 ![716981535](https://user-images.githubusercontent.com/1243610/73809320-de535780-480d-11ea-82f5-15d4c3ccb0c0.png)
 
-## Special Thanks to
+## Special Thanks To
 
+- [fanboy-annoyance](https://easylist.to/easylist/fanboy-annoyance.txt) - 优秀的easylist列表
 - [notracking/hosts-blocklists-scripts](https://github.com/notracking/hosts-blocklists-scripts) - 提供无效域名和无效hosts列表
 - [Adblock Plus](https://adblockplus.org/) - 畅游清爽洁净的网络！
 - [neoFelhz/neohosts](https://github.com/neoFelhz/neohosts) - 自由·负责·克制 去广告 Hosts 项目
@@ -63,3 +61,8 @@ anti-AD在自我认知上始终是一个非主流的小众项目，受众群体�
 - [hoshsadiq/adblock-nocoin-list](https://github.com/hoshsadiq/adblock-nocoin-list) - 恶意挖矿屏蔽列表
 - [easylist.to](https://easylist.to/) - 感谢提供出色的easylist
 - [ZeroDot1/CoinBlockerLists](https://gitlab.com/ZeroDot1/CoinBlockerLists) - 屏蔽恶意劫持挖矿
+- [crazy-max/WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker/) - to block spying and tracking on Windows systems.
+
+## 本项目使用PHPStorm开发，特此感谢
+
+[![phpstorm](./others/icon-phpstorm.png)](https://www.jetbrains.com/zh-cn/opensource/)
